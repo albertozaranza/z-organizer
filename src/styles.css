@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+html,
+body,
+#root {
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  background: #032552;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background: #d26353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.header-content .header-logo {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-content .header-signout {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-content .header-signout > img {
+  margin-left: 5px;
+  width: 18px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+}
+
+.user img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 230px;
+  background: #0e345f;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+  background: #0e345f;
+  border-radius: 10px;
+}
+
+.info-money {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+  background: #0e345f;
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background: #32678c;
+  border-radius: 10px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.add {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.add > input {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+.add > button {
+  position: relative;
+  left: -40px;
+  border-radius: 50%;
+  border: none;
+  background: #32678c;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
